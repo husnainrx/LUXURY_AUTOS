@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Buy | Luxury Autos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>LUXURY<span>AUTOS</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="buy.html" class="active">Buy</a></li>
+                    <li><a href="rent.html">Rent</a></li>
+                    <li><a href="sell.html">Sell/Trade</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+                <section class="sell-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <h2>Premium Vehicle Collection</h2>
+                    <p>Discover our exclusive selection of luxury vehicles available for purchase</p>
+                </div>
+            </div>
+        
+
+
+
+    <section class="buy-section">
+        <div class="container">
+            <!-- Enhanced Filter Controls -->
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="price-filter">Price Range</label>
+                    <select id="price-filter" class="filter-select">
+                        <option value="all">All Prices</option>
+                        <option value="0-5000000">PKR 0 - 5M</option>
+                        <option value="5000000-15000000">PKR 5M - 15M</option>
+                        <option value="15000000-30000000">PKR 15M - 30M</option>
+                        <option value="30000000+">PKR 30M+</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="brand-filter">Brand</label>
+                    <select id="brand-filter" class="filter-select">
+                        <option value="all">All Brands</option>
+                        <option value="mercedes">Mercedes-Benz</option>
+                        <option value="bmw">BMW</option>
+                        <option value="audi">Audi</option>
+                        <option value="porsche">Porsche</option>
+                        <option value="range rover">Range Rover</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="lexus">Lexus</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="type-filter">Vehicle Type</label>
+                    <select id="type-filter" class="filter-select">
+                        <option value="all">All Types</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="sports">Sports Car</option>
+                        <option value="luxury">Luxury</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="year-filter">Year</label>
+                    <select id="year-filter" class="filter-select">
+                        <option value="all">All Years</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="fuel-filter">Fuel Type</label>
+                    <select id="fuel-filter" class="filter-select">
+                        <option value="all">All Fuel Types</option>
+                        <option value="petrol">Petrol</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="hybrid">Hybrid</option>
+                        <option value="electric">Electric</option>
+                    </select>
+                </div>
+                <button class="btn btn-filter" id="reset-filters">Reset Filters</button>
+            </div>
+
+            <!-- Search Results Info -->
+            <div class="results-info">
+                <p id="results-count">Showing all premium vehicles</p>
+                <div class="sort-options">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by" class="filter-select">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="year-new">Year: Newest First</option>
+                        <option value="year-old">Year: Oldest First</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="vehicles-grid" id="buy-vehicles">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </section>
+
+        </div></section>
+
+    <section class="buying-process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Premium Buying Process</h2>
+                <p>Experience seamless vehicle acquisition with our expert guidance</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Vehicle Selection</h3>
+                    <p>Browse our curated collection and select your preferred luxury vehicle</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Test Drive</h3>
+                    <p>Schedule a comprehensive test drive with our expert sales team</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Documentation</h3>
+                    <p>We handle all paperwork and legal formalities for you</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Delivery</h3>
+                    <p>Receive your vehicle with full orientation and after-sales support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="financing-section">
+        <div class="container">
+            <div class="financing-grid">
+                <div class="financing-content">
+                    <h2>Premium Financing Options</h2>
+                    <p>We partner with leading financial institutions to provide you with competitive financing solutions tailored to your needs.</p>
+                    <ul class="financing-features">
+                        <li><i class="fas fa-check"></i> Competitive interest rates</li>
+                        <li><i class="fas fa-check"></i> Flexible repayment terms</li>
+                        <li><i class="fas fa-check"></i> Quick approval process</li>
+                        <li><i class="fas fa-check"></i> Special corporate plans</li>
+                        <li><i class="fas fa-check"></i> Insurance partnerships</li>
+                    </ul>
+                    <a href="contact.html" class="btn">Get Pre-Approved</a>
+                </div>
+                <div class="financing-image">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Financing Options">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Luxury Autos</h3>
+                    <p>Your premium automotive platform for exclusive rentals, premium purchases, and high-value trade-ins.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="buy.html">Premium Buy</a></li>
+                        <li><a href="rent.html">Exclusive Rentals</a></li>
+                        <li><a href="sell.html">Sell/Trade</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="buy.html">Vehicle Purchases</a></li>
+                        <li><a href="rent.html">Luxury Rentals</a></li>
+                        <li><a href="sell.html">Trade-In Program</a></li>
+                        <li><a href="sell.html">Vehicle Valuation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Premium Automotive District, Karachi</p>
+                    <p><i class="fas fa-phone"></i> (021) 111-LUXURY</p>
+                    <p><i class="fas fa-envelope"></i> info@luxuryautos.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sun: 9:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luxury Autos. All Rights Reserved. | Premium Automotive Platform</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

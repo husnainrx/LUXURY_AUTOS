@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Luxury Autos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>LUXURY<span>AUTOS</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="buy.html">Buy</a></li>
+                    <li><a href="rent.html">Rent</a></li>
+                    <li><a href="sell.html">Sell/Trade</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+            <section class="sell-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <h2>Contact Luxury Autos</h2>
+                    <p>Get in touch with our premium automotive experts</p>
+                </div>
+            </div>
+        
+
+        
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Our team of automotive experts is ready to assist you with any inquiries about our premium vehicles, rental services, or trade-in opportunities.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Visit Our Showroom</h3>
+                                <p>Premium Automotive District<br>DHA Phase 5, Karachi</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Call Us</h3>
+                                <p>(021) 111-LUXURY<br>+92 300 1234567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Email Us</h3>
+                                <p>info@luxuryautos.com<br>sales@luxuryautos.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Sunday: 9:00 AM - 9:00 PM<br>24/7 Emergency Rental Support</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Send Us a Message</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name">Full Name *</label>
+                                <input type="text" id="contact-name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email Address *</label>
+                                <input type="email" id="contact-email" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-phone">Phone Number *</label>
+                                <input type="tel" id="contact-phone" required>
+                                <span class="error-message" id="phone-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-subject">Subject *</label>
+                                <select id="contact-subject" required>
+                                    <option value="">Select Subject</option>
+                                    <option value="vehicle-inquiry">Vehicle Inquiry</option>
+                                    <option value="rental-booking">Rental Booking</option>
+                                    <option value="trade-in">Trade-In Valuation</option>
+                                    <option value="test-drive">Schedule Test Drive</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="partnership">Partnership</option>
+                                </select>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-vehicle">Vehicle of Interest (Optional)</label>
+                            <input type="text" id="contact-vehicle" placeholder="e.g., Mercedes S-Class 2023">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message *</label>
+                            <textarea id="contact-message" rows="5" placeholder="Please provide details about your inquiry..." required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="contact-newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for updates and exclusive offers
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div></section>
+    <section class="locations-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Locations</h2>
+                <p>Visit our premium showrooms across Pakistan</p>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Karachi Showroom">
+                    </div>
+                    <div class="location-info">
+                        <h3>Karachi Flagship</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> DHA Phase 5, Karachi</p>
+                        <p><i class="fas fa-phone"></i> (021) 111-LUXURY</p>
+                        <p><i class="fas fa-clock"></i> 9:00 AM - 9:00 PM</p>
+                        <a href="#" class="btn btn-secondary">Get Directions</a>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Lahore Showroom">
+                    </div>
+                    <div class="location-info">
+                        <h3>Lahore Premium</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Defence Road, Lahore</p>
+                        <p><i class="fas fa-phone"></i> (042) 111-LUXURY</p>
+                        <p><i class="fas fa-clock"></i> 9:00 AM - 9:00 PM</p>
+                        <a href="#" class="btn btn-secondary">Get Directions</a>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Islamabad Showroom">
+                    </div>
+                    <div class="location-info">
+                        <h3>Islamabad Elite</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> F-8 Markaz, Islamabad</p>
+                        <p><i class="fas fa-phone"></i> (051) 111-LUXURY</p>
+                        <p><i class="fas fa-clock"></i> 9:00 AM - 9:00 PM</p>
+                        <a href="#" class="btn btn-secondary">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What documents do I need for vehicle purchase?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For vehicle purchase, you'll need your original CNIC, driver's license, and proof of income. For financing, additional documents including bank statements and employment verification may be required.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How does the rental process work?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our rental process is simple: 1) Choose your vehicle and rental period, 2) Provide required documents (CNIC, driver's license), 3) Pay security deposit, 4) Enjoy your luxury vehicle. We offer delivery and pickup services.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your trade-in valuation process?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We conduct a comprehensive evaluation including: vehicle inspection, market analysis, service history review, and current demand assessment. You'll receive a competitive offer within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer test drives?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we encourage test drives for all our vehicles. You can schedule a test drive through our website, by phone, or by visiting our showroom. Our sales representatives will accompany you for the test drive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Luxury Autos</h3>
+                    <p>Your premium automotive platform for exclusive rentals, premium purchases, and high-value trade-ins.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="buy.html">Premium Buy</a></li>
+                        <li><a href="rent.html">Exclusive Rentals</a></li>
+                        <li><a href="sell.html">Sell/Trade</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="buy.html">Vehicle Purchases</a></li>
+                        <li><a href="rent.html">Luxury Rentals</a></li>
+                        <li><a href="sell.html">Trade-In Program</a></li>
+                        <li><a href="sell.html">Vehicle Valuation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Premium Automotive District, Karachi</p>
+                    <p><i class="fas fa-phone"></i> (021) 111-LUXURY</p>
+                    <p><i class="fas fa-envelope"></i> info@luxuryautos.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sun: 9:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luxury Autos. All Rights Reserved. | Premium Automotive Platform</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

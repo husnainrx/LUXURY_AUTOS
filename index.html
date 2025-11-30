@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Autos | Premium Automotive Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>LUXURY<span>AUTOS</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="buy.html">Buy</a></li>
+                    <li><a href="rent.html">Rent</a></li>
+                    <li><a href="sell.html">Sell/Trade</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <p class="tagline">Premium Automotive Platform</p>
+            <h1>
+            <span class="hover-word">DRIVE.</span>
+            <span class="hover-word">OWN.</span>
+            <span class="hover-word">RENT.</span>
+            </h1>
+
+            <p>Your exclusive destination for premium vehicle rentals, purchases, and high-value trade-ins</p>
+            <div class="hero-buttons">
+                <a href="buy.html" class="btn">Buy Premium</a>
+                <a href="rent.html" class="btn btn-secondary">Exclusive Rentals</a>
+                <a href="sell.html" class="btn btn-secondary">Sell/Trade</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="buy-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <h2>Premium Buy Listings</h2>
+                    <p>Discover our curated collection of exceptional vehicles</p>
+                </div>
+            </div>
+            
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="price-filter">Price Range</label>
+                    <select id="price-filter" class="filter-select">
+                        <option value="all">All Prices</option>
+                        <option value="0-5000000">PKR 0 - 5M</option>
+                        <option value="5000000-15000000">PKR 5M - 15M</option>
+                        <option value="15000000-30000000">PKR 15M - 30M</option>
+                        <option value="30000000+">PKR 30M+</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="brand-filter">Brand</label>
+                    <select id="brand-filter" class="filter-select">
+                        <option value="all">All Brands</option>
+                        <option value="mercedes">Mercedes-Benz</option>
+                        <option value="bmw">BMW</option>
+                        <option value="audi">Audi</option>
+                        <option value="porsche">Porsche</option>
+                        <option value="range rover">Range Rover</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="lexus">Lexus</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="type-filter">Vehicle Type</label>
+                    <select id="type-filter" class="filter-select">
+                        <option value="all">All Types</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="sports">Sports Car</option>
+                        <option value="luxury">Luxury</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="year-filter">Year</label>
+                    <select id="year-filter" class="filter-select">
+                        <option value="all">All Years</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                    </select>
+                </div>
+                <button class="btn btn-filter" id="reset-filters">Reset Filters</button>
+            </div>
+
+            <div class="vehicles-grid" id="buy-vehicles">
+            </div>
+        </div>
+    </section>
+
+    <section class="rent-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <h2>Exclusive Rentals</h2>
+                    <p>Experience luxury on your terms with our premium rental fleet</p>
+                </div>
+            </div>
+
+            <div class="rental-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-day"></i>
+                    </div>
+                    <h3>Flexible Duration</h3>
+                    <p>Daily, weekly, or monthly rentals tailored to your needs</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Premium Insurance</h3>
+                    <p>Comprehensive coverage for complete peace of mind</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Concierge Service</h3>
+                    <p>24/7 support and vehicle delivery to your location</p>
+                </div>
+            </div>
+
+            <div class="vehicles-grid" id="rental-vehicles">
+            </div>
+        </div>
+    </section>
+
+    <section class="sell-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <h2>High-Value Seller/Trade Portal</h2>
+                    <p>Get the best value for your premium vehicle with our expert evaluation</p>
+                </div>
+            </div>
+
+            <div class="sell-container">
+                <div class="sell-benefits">
+                    <h3>Why Choose Luxury Autos?</h3>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Maximum Value</h4>
+                            <p>Get top market price for your premium vehicle</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Instant Offer</h4>
+                            <p>Receive a competitive offer within 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Hassle-Free Process</h4>
+                            <p>We handle all paperwork and documentation</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Trade-In Options</h4>
+                            <p>Upgrade to a newer model with attractive trade-in values</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sell-form-container">
+                    <form class="sell-form" id="trade-form">
+                        <h3>Submit Your Vehicle</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="vehicle-make">Vehicle Make *</label>
+                                <input type="text" id="vehicle-make" required>
+                                <span class="error-message" id="make-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="vehicle-model">Vehicle Model *</label>
+                                <input type="text" id="vehicle-model" required>
+                                <span class="error-message" id="model-error"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="vehicle-year">Year *</label>
+                                <input type="number" id="vehicle-year" min="1990" max="2024" required>
+                                <span class="error-message" id="year-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="vehicle-mileage">Mileage (km) *</label>
+                                <input type="number" id="vehicle-mileage" min="0" required>
+                                <span class="error-message" id="mileage-error"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="vehicle-condition">Vehicle Condition *</label>
+                            <select id="vehicle-condition" required>
+                                <option value="">Select Condition</option>
+                                <option value="excellent">Excellent</option>
+                                <option value="very-good">Very Good</option>
+                                <option value="good">Good</option>
+                                <option value="fair">Fair</option>
+                            </select>
+                            <span class="error-message" id="condition-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="vehicle-features">Key Features</label>
+                            <textarea id="vehicle-features" placeholder="List notable features, upgrades, or special equipment..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="owner-email">Your Email *</label>
+                            <input type="email" id="owner-email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="owner-phone">Phone Number *</label>
+                            <input type="tel" id="owner-phone" required>
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Get Valuation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Luxury Autos</h3>
+                    <p>Your premium automotive platform for exclusive rentals, premium purchases, and high-value trade-ins. Experience automotive excellence with our curated services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="buy.html">Premium Buy</a></li>
+                        <li><a href="rent.html">Exclusive Rentals</a></li>
+                        <li><a href="sell.html">Sell/Trade</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="buy.html">Vehicle Purchases</a></li>
+                        <li><a href="rent.html">Luxury Rentals</a></li>
+                        <li><a href="sell.html">Trade-In Program</a></li>
+                        <li><a href="sell.html">Vehicle Valuation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Premium Automotive District, Karachi</p>
+                    <p><i class="fas fa-phone"></i> (021) 111-LUXURY</p>
+                    <p><i class="fas fa-envelope"></i> info@luxuryautos.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sun: 9:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luxury Autos. All Rights Reserved. | Premium Automotive Platform</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
